@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 class Program
@@ -98,7 +98,7 @@ public class Simulator
         if (Orderline.Count == 0) return;
 
         Random random = new Random();
-        int rand = random.Next(0,3);
+        int rand = 1;
 
         Item CurrentItem = Orderline[0];
 
@@ -246,21 +246,24 @@ public class Simulator
         Console.WriteLine("How much do you want to produce?");
         int limit = int.Parse(Console.ReadLine());
 
-        while (id < limit)
+        while (id <= limit)
         {
-            GenerateA();
-            GenerateB();
-            GenerateC();
+            if(id <= limit)
+                GenerateA();
+            if(id <= limit)
+                GenerateB();
+            if(id <= limit)
+                GenerateC();
 
             QualityChecker();
             TransportItems();
 
+            Tick++;
             Console.Clear();
-
+            Console.WriteLine($"Tick: {Tick}");
             PrintAll();
 
             System.Threading.Thread.Sleep(500);
-            Tick++;
         }
 
         while (Orderline.Count > 0 || Storage.Count > 0 || Transport.Count > 0)
@@ -268,16 +271,19 @@ public class Simulator
             QualityChecker();
             TransportItems();
 
+            Tick++;
             Console.Clear();
-
+            Console.WriteLine($"Tick: {Tick}");
             PrintAll();
 
             System.Threading.Thread.Sleep(500);
-            Tick++;
         }
 
+        Console.Clear();
+        PrintAll();
         Console.WriteLine();
         Console.Write($"Items created {id - 1}, A type pased {Apass}, B type pased {Bpass}, C type pased {Cpass}, Tickes take {Tick} ");
+        Console.WriteLine();
     }
 
 }
