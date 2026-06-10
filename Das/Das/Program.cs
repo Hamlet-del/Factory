@@ -98,7 +98,7 @@ public class Simulator
         if (Orderline.Count == 0) return;
 
         Random random = new Random();
-        int rand = 1;
+        int rand = random.Next(0,3);
 
         Item CurrentItem = Orderline[0];
 
