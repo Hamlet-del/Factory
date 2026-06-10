@@ -1,0 +1,14 @@
+C:\Users\Kerobyan Family\source\repos\Das\Das\bin\Debug\net10.0\Das.exe
+C:\Users\Kerobyan Family\source\repos\Das\Das\bin\Debug\net10.0\Das.deps.json
+C:\Users\Kerobyan Family\source\repos\Das\Das\bin\Debug\net10.0\Das.runtimeconfig.json
+C:\Users\Kerobyan Family\source\repos\Das\Das\bin\Debug\net10.0\Das.dll
+C:\Users\Kerobyan Family\source\repos\Das\Das\bin\Debug\net10.0\Das.pdb
+C:\Users\Kerobyan Family\source\repos\Das\Das\obj\Debug\net10.0\Das.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kerobyan Family\source\repos\Das\Das\obj\Debug\net10.0\Das.AssemblyInfoInputs.cache
+C:\Users\Kerobyan Family\source\repos\Das\Das\obj\Debug\net10.0\Das.AssemblyInfo.cs
+C:\Users\Kerobyan Family\source\repos\Das\Das\obj\Debug\net10.0\Das.csproj.CoreCompileInputs.cache
+C:\Users\Kerobyan Family\source\repos\Das\Das\obj\Debug\net10.0\Das.dll
+C:\Users\Kerobyan Family\source\repos\Das\Das\obj\Debug\net10.0\refint\Das.dll
+C:\Users\Kerobyan Family\source\repos\Das\Das\obj\Debug\net10.0\Das.pdb
+C:\Users\Kerobyan Family\source\repos\Das\Das\obj\Debug\net10.0\Das.genruntimeconfig.cache
+C:\Users\Kerobyan Family\source\repos\Das\Das\obj\Debug\net10.0\ref\Das.dll
